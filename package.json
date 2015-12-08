@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "node myApp/bin/www"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,20 @@
   },
   "homepage": "https://github.com/codewhisperer/properties#readme",
   "dependencies": {
-    "node": "0.0.0"
+    "angular": "^1.4.7",
+    "body-parser": "^1.14.1",
+    "bootstrap": "^3.3.5",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "~4.0.0",
+    "express-generator": "^4.13.1",
+    "jade": "^1.11.0",
+    "lodash": "^3.10.1",
+    "morgan": "^1.6.1",
+    "sails-disk": "^0.10.8",
+    "sails-mysql": "^0.11.2",
+    "serve-favicon": "^2.3.0",
+    "waterline": "^0.10.28",
+    "waterline-sqlite3": "^0.12.4"
   }
 }
