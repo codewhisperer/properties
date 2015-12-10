@@ -1,5 +1,5 @@
 // FILE: ORM/orm.js
-var Waterline = require('Waterline');
+var Waterline = require('waterline');
 
 // create new instance of waterline
 var orm = new Waterline();
