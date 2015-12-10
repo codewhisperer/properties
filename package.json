@@ -25,7 +25,7 @@
     "debug": "^2.2.0",
     "express": "~4.0.0",
     "express-generator": "^4.13.1",
-    "jade": "^1.11.0",
+    "fs": "0.0.2",
     "lodash": "^3.10.1",
     "morgan": "^1.6.1",
     "sails-disk": "^0.10.8",
