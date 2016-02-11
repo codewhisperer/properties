@@ -1,12 +1,10 @@
 machine:
   node:
     version: 0.10.22
-dependencies:
-  pre:
-    - npm install # install from a different package manager
 deployment:
   staging:
     branch: master
     commands:
+      - npm run bundle
       - "[[ ! -s \"$(git rev-parse --git-dir)/shallow\" ]] || git fetch --unshallow"
       - git push --force git@heroku.com:properties-app.git $CIRCLE_SHA1:refs/heads/master
