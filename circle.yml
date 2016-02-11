@@ -7,7 +7,7 @@ dependencies:
     - npm run bundle
 test:
   post:
-    - sed -i -e 's/\/node_modules//' code/server/.gitignore
+    - sed -i -e 's/\/node_modules//' .gitignore
     - git config user.name "circleci"
     - git config user.email "michael@langmayr.net"
     - git add -A
