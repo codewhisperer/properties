@@ -8,10 +8,10 @@ dependencies:
 test:
   post:
     - rm .gitignore
-    # - git config user.name "circleci"
-    # - git config user.email "michael@langmayr.net"
-    # - git add -A
-    # - git commit -m "build"
+    - git config user.name "circleci"
+    - git config user.email "michael@langmayr.net"
+    - git add -A
+    - git commit -m "build"
 deployment:
   staging:
     branch: master
