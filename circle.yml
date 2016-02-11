@@ -7,7 +7,7 @@ dependencies:
     - npm run bundle
 test:
   post:
-    - rm code/.gitignore
+    - rm .gitignore
     - git config user.name "circleci"
     - git config user.email "michael@langmayr.net"
     - git add public/frontend*
