@@ -7,4 +7,4 @@ deployment:
     commands:
       - "[[ ! -s \"$(git rev-parse --git-dir)/shallow\" ]] || git fetch --unshallow"
       - git push --force git@heroku.com:properties-app.git $CIRCLE_SHA1:refs/heads/master
-      - heroku run npm run bundle
+      - heroku run npm run bundle --app properties-app
