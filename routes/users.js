@@ -5,8 +5,8 @@ var router = express.Router();
 /* GET users listing. */
 router.get('/', function(req, res) {
   req.models.user.find().exec(function(err, allUsers) {
-      if (err) return res.json({error: err}, 500);
-      res.json(allUsers);
+    if (err) return res.json({error: err}, 500);
+    res.json(allUsers);
   });
 });
 /* POST create new user. */
@@ -41,4 +41,4 @@ router.delete('/:id', function(req, res) {
   });
 });
 
-module.exports = router; 
+module.exports = router;
