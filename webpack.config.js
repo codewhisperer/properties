@@ -21,7 +21,11 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js', '.jsx'],
+    alias: {
+        jQuery: "../node_modules/jquery/dist/jquery"
+    }
+
   },
   bail: true,
   cache: true
