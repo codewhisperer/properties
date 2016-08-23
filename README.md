@@ -1,1 +1,3 @@
-# properties
+# properties - property management tool
+
+work in progress...
